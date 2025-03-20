@@ -1,8 +1,11 @@
+private final int MAX_SIZE = 100;
+
 package edu.kis.vh.nursery;
 
+
 public class DefaultCountingOutRhymer {
-    int size = 12;
-    int err = -1;
+    int final size = 12;
+    int final err = -1;
     private int[] numbers = new int[size];
 
     public int total = -1;
