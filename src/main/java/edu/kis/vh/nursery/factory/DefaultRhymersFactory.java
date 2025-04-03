@@ -9,22 +9,21 @@ public class DefaultRhymersFactory implements Rhymersfactory {
 
     @Override
     public DefaultCountingOutRhymer getStandardRhymer() {
-        return new DefaultCountingOutRhymer();
+        return new DefaultCountingOutRhymer();  // Klasyczny Rhymer
     }
 
     @Override
     public DefaultCountingOutRhymer getFalseRhymer() {
-        return new DefaultCountingOutRhymer();
+        return new DefaultCountingOutRhymer();  // Tutaj możesz dodać własną implementację, jeżeli potrzebujesz inny typ
     }
 
     @Override
     public DefaultCountingOutRhymer getFIFORhymer() {
-        return new FIFORhymer();
+        return new FIFORhymer();  // Rhymer FIFO
     }
 
     @Override
     public DefaultCountingOutRhymer getHanoiRhymer() {
-        return new HanoiRhymer();
+        return new HanoiRhymer();  // Specjalny HanoiRhymer
     }
-
 }
