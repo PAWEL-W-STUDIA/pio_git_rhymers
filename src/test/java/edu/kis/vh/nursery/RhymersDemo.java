@@ -11,7 +11,7 @@ class RhymersDemo {
         Rhymersfactory factory = new DefaultRhymersFactory();
         
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
-                factory.getFIFORhymer(), factory.getHanoiRhymer()};
+                factory.getFifoRhymer(), factory.getHanoiRhymer()};
         
         for (int i = 1; i < 15; i++)
             for (int j = 0; j < 3; j++)
